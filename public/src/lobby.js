@@ -9,7 +9,7 @@ createLobbyBtn.onclick = () => {
 }
 
 const joinBtn = document.getElementById("joinBtn");
-const joinInput = document.getElementById("entryId");
+const joinInput = document.getElementById("entryPeer");
 joinBtn.onclick = () => {
-    window.location.href = `game.html?entryId=${joinInput.value}`;
+    window.location.href = `game.html?entryPeer=${joinInput.value}`;
 }
